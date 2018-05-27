@@ -26,8 +26,10 @@ const irradianceMap = renderIrradiance(envMap, opts);
 
 `createIrradianceRenderer` takes a regl context as a parameter, and returns the function `renderIrradiance`.
 
-`renderIrradiance` takes an `opts` parameter and returns a regl framebufferCube object that can be immediately used as
-a `samplerCube` in your shaders, or passed back into the `renderIrradiance` function to update it.
+`renderIrradiance` takes an `envMap` and `opts` parameter and returns a regl `framebufferCube` object that can be
+immediately used as a `samplerCube` in your shaders, or passed back into the `renderIrradiance` function to update it.
+
+The `envMap` parameter is a regl `framebufferCube` or `cube` (cubemap) object that you provide.
 
 The `opts` parameter is an object with the following (optional) members:
 
