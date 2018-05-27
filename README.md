@@ -6,6 +6,8 @@ Easily generate an irradiance environment map from an existing environment map.
   <img src="https://github.com/wwwtyro/regl-irradiance-envmap/raw/media/irradiance.gif" width="100%">
 </p>
 
+[Demo](https://wwwtyro.github.io/regl-irradiance-envmap/)
+
 ## Install
 
 ```
